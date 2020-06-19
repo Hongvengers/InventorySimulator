@@ -40,8 +40,8 @@
             android:layout_height="match_parent"
             android:padding="20dp">
 
-            <GridView
-                android:id="@+id/masterBoxGrid"
+            <ListView
+                android:id="@+id/masterBoxList"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:numColumns="4"/>
@@ -83,8 +83,8 @@
             android:layout_height="match_parent"
             android:padding="20dp">
 
-            <GridView
-                android:id="@+id/inventoryGrid"
+            <ListView
+                android:id="@+id/inventoryList"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
